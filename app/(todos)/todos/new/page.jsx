@@ -1,4 +1,4 @@
-import TodoForm from "../../../components/TodoFrom";
+import TodoForm from "../../../../components/TodoForm";
 
 export const metadata = {
   title: "새 Todo 추가",
@@ -8,7 +8,7 @@ export const metadata = {
 export default function NewTodoPage() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="max-w-2xl mx-auto px-6 py-10">
+      <div className="max-w-2xl mx-auto px-6 py-20">
         <h1 className="text-2xl font-bold text-gray-900 mb-8">새 Todo 추가</h1>
         <TodoForm />
       </div>

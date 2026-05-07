@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="ko" className={inter.variable}>
       <body className="font-[family-name:var(--font-inter)]">
         <Header />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );
